@@ -1,0 +1,9 @@
+diff a/src/main/java/com/example/screw/constants/RtnCode.java b/src/main/java/com/example/screw/constants/RtnCode.java	(rejected hunks)
+@@ -7,6 +7,7 @@
+ 	MACHINE_NAME_CANNOT_BE_NULL(400, "Machine name can not be null"),
+ 	PASSWORD_ERROR(400, "�K�X���~"), //
+ 	ACCOUNT_NOT_EXISTS(400, "�b�����s�b"), //
++	NO_DATA(400, "�d�L���"), //
+ 	ACCOUNT_EXISTS(400, "Account already exists !!"), //
+ 	VOLTAGE_CANNOT_ZERO(400, "Voltage_Cannot_Zero"),//
+ 	ORDER_NUMBER_NOT_EXISTS(400, "Not exists order numner !!"), //

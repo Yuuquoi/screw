@@ -1,0 +1,10 @@
+diff a/src/main/java/com/example/screw/service/impl/OrderServiceImpl.java b/src/main/java/com/example/screw/service/impl/OrderServiceImpl.java	(rejected hunks)
+@@ -104,7 +104,7 @@
+ 		// temp ���s��j�M���^�ǭ�
+ 		List<Order> temp = orderDao.searchOrder(orderNumber, name);
+ 		if(CollectionUtils.isEmpty(temp)) {
+-			return new SearchOrderRes(RtnCode.SUCCESS.getCode(), RtnCode.SUCCESS.getMessage(), null);
++			return new SearchOrderRes(RtnCode.NO_DATA.getCode(), RtnCode.NO_DATA.getMessage(), null);
+ 		}
+ 		// resObj �O�n�^�Ǫ���
+ 		List<ScrewMaterialObj> resObj = new ArrayList<>();
