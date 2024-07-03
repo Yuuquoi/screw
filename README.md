@@ -13,4 +13,4 @@
 後端 : Java 、Spring Boot 、MySQL 
 
 ## 接收資料
-+ 以 socket server 讀取機台即時傳入的資料 ( JSON 格式 )，再存入資料庫中
++ 建構基於 TCP 協定的 socket server 讀取機台即時傳入的資料 ( JSON 格式 )，再存入資料庫中
